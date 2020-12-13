@@ -24,12 +24,15 @@
 
 .portafolio-articulo{
     width: 360px;
-    margin: 5px;
     position: relative;
     height: 300px;
     overflow: hidden;
 }
 
+[tituloservicio]{
+    width: 360px;
+    padding: 12px;
+}
 .portafolio-texto{
     position:absolute;
     bottom: 0;
