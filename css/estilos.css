@@ -6,6 +6,9 @@ body{
     position:fixed;
    width: 100vw;
    top: 0;
+   /* CODIGO CAMBIADO PARA QUE EL MAPA IFRAME NO SE MUEVA */
+   z-index: 3;
+   /* *********** */
 }
 [atribute]:hover{
     background-color: #272828;
@@ -36,31 +39,30 @@ body{
     left: 0;
     opacity: 0.9;
 }
-
+/* Estilos del mapa de google(Ubicacion) */
 .contact_info{
     width: 50%;
-    position: relative;
+    position: relative;;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-size: cover;
-    background-position: center center;
 }
-
-.info_title,
-.info_items{
+.info_items,.info_title{
     position: relative;
     z-index: 2;
     color: #fff;
 }
 
-
 .ubicacion{
     border-radius: 10px;
     width: 100%;
     height: 30vw;
+    position: relative;
+    
 }
+/* ***************************** */
 .texto{
     font-size: 35px;
     display: block;
@@ -107,7 +109,6 @@ form.form_contact{
     width: 62%;
     margin-top: 78px;
     padding: 20px;
-
 }
 
 form.form_contact h2{
@@ -393,4 +394,8 @@ form.form_contact input[type="submit"]:hover{
 .icono-diferenciamos{
    display: flex;
    justify-content: center;
+}
+
+.navbar-brand{
+    width: 380px;
 }
