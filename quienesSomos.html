@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cajita.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -12,20 +13,39 @@
 </head>
 <body>
     <div class="cabecera1">
-        <nav class="navbar navbar-expand-sm bg-light  justify-content-center bg-dark text-white " >
+        <nav class=" navbar-expand-sm bg-light   bg-dark text-white " >
           
-          <ul class="navbar-nav ml-5" >
-              <li class="nav-item">
-                 <i class="fas fa-phone-square-alt"></i>
-                 <span class="p-2 mr-5">+51 923690145</span>
-              <li class="nav-item">
-                 <i class="fas fa-phone-square-alt"></i>
-                 <span class="p-2 mr-5">+51 922243202</span>
-              </li>
-              <li class="nav-item">
-                 <i class="fas fa-envelope"></i>
-                 <span class="p-2 mr-5">informes@inteslaperu.com</span>
-              </li>
+          <ul class="navbar-nav " >
+            <div class="contenedor-header">
+                   <div class="header-informacion">
+                       <div>
+                         <li class="nav-item" li-header>
+                            <i class="fas fa-phone-square-alt"></i>
+                            <span class="p-2 mr-5">+51 923690145</span>
+                          </div>
+                         <li class="nav-item" li-header>
+                            <i class="fas fa-phone-square-alt"></i>
+                            <span class="p-2 mr-5">+51 922243202</span>
+                         </li>
+                         <li class="nav-item" li-header>
+                            <i class="fas fa-envelope" ></i>
+                            <span class="p-2 mr-5">informes@inteslaperu.com</span>
+                         </li>
+                  </div>
+                   <div class="header-redesSociales">
+                         <li class="nav-item mr-4">
+                          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                         </li>
+                         <li class="nav-item mr-4">
+                         
+                            <i class="fa fa-instagram"></i>
+                         </li>
+                         <li class="nav-item ">
+                            <i class="fa fa-youtube-play"></i>
+                         </li>
+                   </div>
+            </div>
+      
           </ul>
         
         </nav>
@@ -41,39 +61,77 @@
         
         <div class="collapse  navbar-collapse " id="firstNavbar">
            <ul class="navbar-nav ml-auto ">
-               <li class="nav-item"><a class="nav-link text-white"href="quienesSomos.html" atribute>¿Quienes Somos?</a></li>
-               <li class="nav-item"><a class="nav-link text-white"href="cursos.html" atribute>Nuestros Cursos</a></li>
+               <li class="nav-item"><a class="nav-link text-white"href="quienesSomos.html" atribute>¿Quiénes Somos?</a></li>
+               <li class="nav-item"><a class="nav-link text-white"href="#" atribute>Nuestros Cursos</a></li>
                <li class="nav-item"><a class="nav-link text-white"href="servicios.html" atribute>Nuestros Servicios</a></li>
                <li class="nav-item"><a class="nav-link text-white"href="proyectos.html" atribute>Nuestros Proyectos</a></li>
-               <li class="nav-item"><a class="nav-link text-white"href="contactanos.html" atribute>Contactenos</a></li>
+               <li class="nav-item"><a class="nav-link text-white"href="contactanos.html" atribute>Contáctanos</a></li>
            </ul>
         </div>
         </div>
         </nav>
         </div>
+
     <div class="container">
         <h1 class="m-5 text-center">INTESLA</h1>
-        <section class="nosotros m-5">
+        <section class="nosotros">
             <div class="empresa">            
-                <p class="h1">Nuestra Empresa</p>
+                <p class="h1">¿Quiénes Somos?</p>
                 <hr class="subrayado">
-                <p class="modulo">
-                    De nuestra mayor consideración:<br>
-                Nos es grato dirigirnos ante ustedes, con la finalidad de presentar a nuestra 
-                empresa INTESLA S.R.L. con RUC: 20604092729, Ubicados en calle Camaná 315 –
-                Ica. Incursionando en el mundo de la Industria, Agroindustria y Pesqueras, somos 
+                <p class="modulo h5 mb-5">
+                Incursionando en el mundo de la Industria, Agroindustria y Pesqueras, somos 
                 una empresa que tiene amplia experiencia en el rubro de la Obra Eléctrica, Diseño, 
                 Fabricación, Montaje e Instalación de tableros eléctricos. Con una filosofía basada 
                 en la sostenibilidad, calidad y la experiencia, promoviendo un modelo empresarial 
                 que busca anticipar y gestionar de forma responsable tanto los riesgos laborales 
                 y desafíos derivados del desarrollo sostenible, como las nuevas oportunidades 
-                que surge los mismos
+                que surge los mismos.
                 </p>
             </div>
+        </section>
+    </div>
+    <article>
+        <div class="container">
+             <div id="demo" class="carousel slide " data-ride="carousel" >
+
+                 <!-- Indicators -->
+                  <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                  </ul>
+                
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/wtsp/intesla (41).jpeg" alt="Los Angeles">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/wtsp/intesla (89).jpeg" alt="Chicago">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/wtsp/intesla (101).jpeg" alt="New York">
+                    </div>
+                  </div>
+                
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                
+            </div>
+        </div>
+   </article>
+
+     <section class="container">
+         <div>
             <div class="vision mt-5">
-                <p class="h1">Nuestra Visión</p>
+                <p class="h1">Visión</p>
                 <hr class="subrayado">
-                <p class="modulo">
+                <p class="modulo h5">
                     Ser reconocidos como líderes en la actividad que desarrollamos y ofrecer servicios 
                     con la más alta calidad e innovación, promoviendo el desarrollo profesional y 
                     social de nuestros colaboradores respaldados por una gestión integral de mejora 
@@ -81,18 +139,18 @@
                 </p>
             </div>
             <div class="mision mt-5">
-                <p class="h1">Nuestra Misión</p>
+                <p class="h1">Misión</p>
                 <hr class="subrayado">
-                <p class="modulo">
+                <p class="modulo h5">
                     Brindar soluciones técnicas, viables y eficaces para satisfacer las necesidades de
                     los diferentes sectores Industriales e Agroindustriales, teniendo como proyección 
                     a los requerimientos y necesidades que nos presenten.
                 </p>
             </div>
             <div class="objetivo mt-5">
-                <p class="h1">Nuestro Objetivo</p>
+                <p class="h1">Objetivo</p>
                 <hr class="subrayado">
-                <p class="modulo">
+                <p class="modulo h5">
                     Es cubrir todas las necesidades del cliente, a partir del desarrollo de Ingeniería, 
                     diseño, fabricación, montaje y mantenimiento de las obras realizadas, con la 
                     tecnología y controles requeridas basándonos en normas y especificaciones 
@@ -129,61 +187,61 @@
         </section>
     </div>
     <!-- PIE DE PAGINA -->
-    <footer class="bg-dark  text-white  mt-5 p-4 ">
-		<div class="container d-flex flex-wrap justify-content-between ">
-
-			  <div class="" >
-				<img src="img/logo.png" alt="logo" class="w-50 mt-5">
-			   
-			   </div>
-			   <div class=" ">
-				<p class="h4">INTESLA</p>
-				<div>
-					<i class="fa fa-thumb-tack" aria-hidden="true"></i>
-					<p class="d-inline-block">Av Sebastian Barranca Mzna Q LOTE 10 - ICA </p>
-				</div>
-				<div>
-					<i class="fa fa-phone-square" aria-hidden="true"></i>
-	
-					<p class="d-inline-block">
-					  <a href="tel:+51923690145" class="icono2" style="color: white;">
-						+51 923690145
-					</p>
-				</div>
-				<div>
-					<i class="fa fa-envelope" aria-hidden="true"></i>
-					<p class="d-inline-block">
-					  <a href="mailto:informes@inteslaperu.com" class="icono2" style="color: white;">
-						Informes@inteslaperu.com
-					</p>
-				</div>
-			   </div>
-			   <div class=" ">
-				<p class="h4">REDES SOCIALES</p>
-				<div class="">
-					<i class="fa fa-facebook-square" aria-hidden="true"></i>
-					<a href="https://www.facebook.com/InteslaPeru/" class="text-white">/Intesla</a>
-				</div>
-				<div class="">
-					<i class="fa fa-instagram" aria-hidden="true"></i>
-					<a href="https://www.instagram.com/InteslaPeru/" class="text-white">/Intesla</a>
-				</div>
-				<div class="">
-					<i class="fa fa-youtube-play" aria-hidden="true"></i>
-					<a href="https://www.youtube.com/channel/UCd1GajcYG9WTmyHbHw-7Wqw" class="text-white">/Intesla</a>
-				</div>
-			   </div> 
-
+<footer class="bg-dark  text-white  mt-5 p-4 ">
+    <div class="container d-flex flex-wrap justify-content-between ">
+  
+        <div class="w-30" >
+        <img src="img/logo.png" alt="logo" class="logi w-50">
+         
+         </div>
+         <div class=" ">
+        <p class="h4">INTESLA</p>
+        <div>
+          <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+          <p class="d-inline-block">Av Sebastian Barranca Mzna Q LOTE 10 - ICA </p>
+        </div>
+        <div>
+          <i class="fa fa-phone-square" aria-hidden="true"></i>
+  
+          <p class="d-inline-block">
+            <a href="tel:+51923690145" class="icono2" style="color: white;">
+            +51 923690145
+          </p>
+        </div>
+        <div>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <p class="d-inline-block">
+            <a href="mailto:informes@inteslaperu.com" class="icono2" style="color: white;">
+            Informes@inteslaperu.com
+          </p>
+        </div>
+         </div>
+         <div class=" ">
+        <p class="h4">REDES SOCIALES</p>
+        <div class="">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <a href="https://www.facebook.com/InteslaPeru/" class="text-white">/Intesla</a>
+        </div>
+        <div class="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <a href="https://www.instagram.com/InteslaPeru/" class="text-white">/Intesla</a>
+        </div>
+        <div class="">
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          <a href="https://www.youtube.com/channel/UCd1GajcYG9WTmyHbHw-7Wqw" class="text-white">/Intesla</a>
+        </div>
+         </div> 
+  
             <br>
-
-			  
+  
+        
         </div>
         <div class="container">
             <hr class="bg-white m-0 p-0">     
-			<p class="m-0 mt-3">© INSTESLAPERU 2021. Todos los derechos reservados.</p> 
+      <p class="m-0 mt-3">© INSTESLAPERU 2021. Todos los derechos reservados.</p> 
         </div>
-		
-	</footer>
+    
+  </footer>
 	
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
