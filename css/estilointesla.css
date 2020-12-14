@@ -49,3 +49,9 @@
     }
   
 }
+
+@media(max-width:845px){
+  .contenedor-nav-1{
+    background: orange;
+  }
+}
