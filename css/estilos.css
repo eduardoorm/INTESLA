@@ -1,10 +1,16 @@
 /* CABECERA */
-
-
+/* *{
+    font-family:Verdana,"Poppins", Helvetica, sans-serif;
+} */
+strong{
+ font-size: 14px;
+ letter-spacing: 1.2px;
+ color:rgba(236, 233, 233, 0.918);
+}
 /* CODIGO CARRUSEL DE IMG */
 .carousel-inner img {
-    width: 100vw;
-    height: 30rem;
+    width:100vw;
+    height: 40rem;
   }
   .contenedor-nav-1{
      width: 100%;
@@ -308,6 +314,36 @@ form.form_contact input[type="submit"]:hover{
  }
  /* FIN DE LOS CAMBIOS  */
 
+ /* CAMBIANDO COLORES DEL NAV Y FOOTER */
+ [nav1]{
+     background: #01395E;
+ }
+[footer]{
+    background:#01395E ;
+}
+[bg-whatsapp]{
+    background:#01395E ;
+}
+[bg-consulta]{
+    background:#01395E ;
+}
+.btn-verTodos{
+    background-color: #01395E ;
+    padding:12px;
+   
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color:white;
+}
+.btn-verTodos:hover{
+    text-decoration: none;
+    color:White;
+}
+
+
+.portafolios{
+    margin-bottom: 90px;
+}
 /* MENSAJE EXITOSO*/
 
 .mensaje-exito{
@@ -335,6 +371,9 @@ form.form_contact input[type="submit"]:hover{
 
 .mensaje-exito a:hover{
     background: #3371B6;
+}
+.CLIENTES-CONTENEDOR{
+    margin-bottom: 150px;
 }
 
 .contenedor-clientes{
@@ -377,21 +416,21 @@ form.form_contact input[type="submit"]:hover{
 .qS-item-div{
     padding: 20px;
     margin:20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .qS-item-div:nth-child(1){
-    background:  #996699;
+    background: #01395E;
 }
 .qS-item-div:nth-child(2){
-    background: #cccccc;
+    background: #01395E;
 }
 
 .qS-item-img{
     width: 320px;
     height: 300px;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
 
@@ -511,6 +550,10 @@ form.form_contact input[type="submit"]:hover{
 }
 
 .subra{
-    border: 3px solid blue;
+    border: 1px solid rgb(63, 195, 204);
     width: 10%;
+}
+
+h2{
+    color:rgb(0, 110, 255);
 }
