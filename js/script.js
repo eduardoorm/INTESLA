@@ -1,3 +1,4 @@
+(()=>{
 
   const btnSend = document.getElementById('btnSend');
 
@@ -54,6 +55,14 @@ const validarCorreo=(correo)=>{
       console.log("tiene errores");
     }
   })
+
+
+
+
+
+})();
+  
+  
 
  /*  let nom= validarNombre(document.getElementById('names').value);
   let tel=validarTelefono(document.getElementById('phone').value);
