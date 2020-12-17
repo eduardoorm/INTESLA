@@ -2,6 +2,14 @@
 /* *{
     font-family:Verdana,"Poppins", Helvetica, sans-serif;
 } */
+section p{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-size: 16px;
+}
+.icono2{
+
+    font-size: 23px;
+}
 
 strong{
  font-size: 14px;
@@ -10,21 +18,22 @@ strong{
 }
 /* LOGO DEL HEADER */
 .header-logo-img{
-    width: 80%;
+    width: 100%;
 }
 /* CODIGO CARRUSEL DE IMG */
+.container-QuienesSomos{
+    margin:auto;
+    width: 60%;
+}
+.carousel{
+    border: 1px solid black;
+
+}
 .carousel-inner img {
     width:100%;
-    height: 36rem;
+    height: 35rem;
   }
-  #container-QuienesSomos{
-
-      width: 53vw;
-  }
-  .carousel{
-
-   margin: auto;
-  }
+ 
   .contenedor-nav-1{
      width: 100%;
      display: flex;
@@ -51,9 +60,6 @@ strong{
   .header-redesSociales i{
       color:white;
   }
-
- 
-  
 
 .cabecera1{
    
@@ -100,6 +106,7 @@ strong{
 }
 
 
+
 .contactanos-contenedor
 {
     padding:70px;
@@ -117,6 +124,17 @@ strong{
     position: relative;
     
 }
+
+@media screen and (max-width:600px){
+    .contactanos-contenedor{
+        width: 90%;
+        padding-left:0 ;
+        padding-right: 0;    
+        
+    }
+}
+
+
 /* ***************************** */
 .texto{
     font-size: 35px;
@@ -343,10 +361,20 @@ form.form_contact input[type="submit"]:hover{
 [bg-consulta]{
     background:#01395E ;
 }
+.contactanos-btn{
+    background-color: #ffffff ;
+    color:black;
+    padding:12px;
+    border-radius: 8px;
+}
+.contactanos-btn:hover{
+    text-decoration: none;
+    color:White;
+    background: #b9b9b9;
+}
 .btn-verTodos{
     background-color: #01395E ;
     padding:12px;
-   
     margin-bottom: 12px;
     border-radius: 8px;
     color:white;
@@ -354,11 +382,13 @@ form.form_contact input[type="submit"]:hover{
 .btn-verTodos:hover{
     text-decoration: none;
     color:White;
+    background: #021624;
 }
 
 
 .portafolios{
     width: 90%;
+   
     margin:auto;
     margin-bottom: 90px;
 }
@@ -421,7 +451,7 @@ form.form_contact input[type="submit"]:hover{
 .video{
    
     width: 100%;
-    height: 42vw;
+    height: 50vw;
     object-fit: fill;
 }
 
@@ -522,7 +552,7 @@ form.form_contact input[type="submit"]:hover{
     width: 100%;
 }
 .boton-enviar{
-    margin-top: 15px;
+    
     text-align: center;
 }
 
@@ -580,6 +610,7 @@ form.form_contact input[type="submit"]:hover{
 .nuestros-proyectos h1{
   text-align: center;
   margin:20px;
+
 }
 .nuestros-proyectos-contenedor{
     display: flex;
@@ -589,6 +620,7 @@ form.form_contact input[type="submit"]:hover{
 .nuestros-proyectos-item{
     width: 500px;
     margin:30px;
+   
 }
 .nuestros-proyectos-img{
     width: 100%;
@@ -743,15 +775,12 @@ h2,h1{
     text-decoration: none !important;
     font-size: 28px;
     font-weight: 600;
-    width: 50%;
     text-align: center;
-    margin-bottom: 5px;
     color:rgb(0, 110, 255);
     justify-content: center;
     font-family:"Segoe UI";
     background-color:#e0e4e7 ;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin:40px;
     padding: 10px;
 }
 .nomvideo:hover{
@@ -779,20 +808,24 @@ h2,h1{
     justify-content: center;
     flex-wrap: wrap;
     margin-top:100px;
-    padding:20px;
+   padding:20px;
+   
+  
 }
 .curso-contenedor-item{
   width: 500px;
   text-align: center;
   font-weight: bold;
+
 }
-.curso-contenedor-item:nth-child(1){
- 
+.texto-item-unete{
+    margin-top: 50px;
 }
 .curso-contenedor-item:nth-child(2){
     
     background: rgba(0, 148, 247, 0.616);
-    padding: 30px;
+    
+    
 }
 .curso-laptop-img{
     width: 100%;
@@ -805,4 +838,159 @@ h2,h1{
         width: 100%;
         margin-bottom: 25px;
     }
+}
+
+/*cajas*/
+.titulo{
+    text-align: center;
+    margin: 15px 0px 40px;
+}
+
+.iman{
+    width: 100%;
+    height: 300px;
+}
+
+.portafolio{
+    width: 86%;
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.portafolio-contenedor{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portafolio-articulo{
+    width: 360px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+[tituloservicio]{
+    width: 360px;
+    padding: 12px;
+    background:#01395E ;
+}
+.portafolio-texto{
+    position:absolute;
+    bottom: 0;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.7) ;
+    color: white;
+
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+}
+
+.portafolio-texto .pro{
+    text-align: justify;
+}
+
+.portafolio-articulo:hover .portafolio-texto{
+    transform: translateY(0%);
+} 
+
+/*Estilos INTESLA*/
+.nosotros{
+    margin: 5px;
+   }
+   .titulo{
+       font-family: fantasy;
+       text-align: left;
+       margin: 15px;
+       font-size: 25px;
+       text-shadow: 0.4px 0.4px 0.4px #000;
+       text-decoration: underline;
+   }
+   .empresa,.mision,.vision,.objetivo,.cuadro{
+       text-align:left;
+       font-size:large;
+       width: 100%;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   .fondos{
+     align-items: center;
+     margin: 15px;
+   }
+   /* 1 columna para smartphones */
+    @media (min-width: 1025px) and (max-width: 1280px) { 
+     .breakpoint{
+       width: 32%;
+       display: inline-block;
+       }
+     }
+     /* 4 columnas para grandes dispositivos*/
+     @media (min-width: 768px) and (max-width: 1024px) {
+         .breakpoint  {
+           display: inline-block;
+         max-width: 28%;
+        }
+     }
+      /* 2 columnas para tablets */
+      @media (min-width: 481px) and (max-width: 767px) {
+       .breakpoint  {
+       display: inline-block;
+       max-width: 38%;
+       }
+   }
+   @media (min-width: 320px) and (max-width: 480px) {
+     
+     .breakpoint  {
+       display: block;
+       max-width: 30%;
+       }
+     
+   }
+   
+   @media(max-width:845px){
+     .contenedor-nav-1{
+       background: orange;
+     }
+   }
+
+  /*  ESTILOS UNETE A NOSOTROS */
+  .unete h1{
+      margin-top: 40px;
+      text-align: center;
+  }
+
+  .unete{
+      width: 60%;
+      margin:auto;
+  }
+  .unete-contenedor{
+      width: 100%;
+      padding: 10px;
+      background:#f0a910 ;
+      margin:auto;
+      border-radius: 10px;
+  }
+  @media screen and (max-width:890px){
+    .unete{
+        width: 90%;
+       padding-left:0 ;
+        padding-right: 0;    
+        
+    }
+}
+  .unete textarea{
+    font-size: 20px;
+    height: 270px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnenviar-unete{
+    border-radius: 20px;
+    padding: 8px;
+    width: 14%;
+    border:none;
+    color:white;
 }
