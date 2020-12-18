@@ -7,8 +7,14 @@ section p{
     font-size: 16px;
 }
 .contenedor-informacion .icono2{
-
+    
     font-size: 23px;
+}
+
+.unete span{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-size: 16px;
+    
 }
 
 strong{
@@ -215,6 +221,8 @@ form.form_contact textarea{
 	font-size: 14px;
 	font-weight: 400;
 }
+
+
 
 form.form_contact textarea{
     max-width: 100%;
@@ -663,26 +671,26 @@ h2,h1{
  /* TEXTO FIJO EN EL VIDEO */
 .contenedor-video{
     position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+   
 }
 .titulo-video{
-    width: 100%;
-    height: 80%;
     position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    top: 45%;
+    left: 22%;
 }
 .titulo-intesla{
     font-size: 70px;
     font-weight: 200;
-    z-index: 100;
-    color: white;
-    margin-bottom: 30px;
-    font-family:'Raleway',sans-serif;
+    color: rgb(175, 175, 175);
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight: bold;
 }
 /* *******************************************/
-@media screen and ( max-width: 1200px){
+@media (min-width:1020px) and ( max-width: 1200px){
     .titulo-video{
         display: inline-block;
         top: 33%;
@@ -693,7 +701,7 @@ h2,h1{
     }
 }
 
-@media screen and ( max-width: 1020px){
+@media (min-width:800px) and ( max-width: 1020px){
     .titulo-video{
         display: inline-block;
         top: 33%;
@@ -704,26 +712,27 @@ h2,h1{
     }
 }
 
-@media screen and ( max-width: 800px){
+@media (min-width:430px) and ( max-width: 800px){
      .titulo-video{
          display: inline-block;
          top: 33%;
+         left: 15%;
      }
      .titulo-intesla{
-         font-size: 45px;
+         font-size: 35px;
          color: white;
      }
  }
 
- @media screen and (max-width:600px){
+ @media (min-width:250px) and (max-width:430px){
     .titulo-video{
         display: inline-block;
-        top: 33%;
+        top: 30%;
+        left: 10%;
     }
      .titulo-intesla{
-         font-size:35px;
+         font-size:24px;
          color:white;
-         z-index: 0;
      }
  }
 
@@ -967,10 +976,12 @@ h2,h1{
   }
   .unete-contenedor{
       width: 100%;
-      padding: 10px;
-      background:#f0a910 ;
+      
+      padding: 20px;
+      background:#f1bb26 ;
       margin:auto;
-      border-radius: 10px;
+      margin-top: 40px;
+     
   }
   @media screen and (max-width:890px){
     .unete{
@@ -984,13 +995,48 @@ h2,h1{
     font-size: 20px;
     height: 270px;
     width: 100%;
+    padding:15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .btnenviar-unete{
     border-radius: 20px;
     padding: 8px;
-    width: 14%;
+    width:140px;
     border:none;
     color:white;
+}
+.unete p {
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight:bold; 
+    font-size: 18px;
+    color:rgb(80, 78, 78);
+}
+.nav-item a{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-size: 16px;
+}
+
+footer p{
+    font-family: 'Open Sans',Arial, sans-serif;
+}
+
+/* body h1{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight: bold;
+}
+
+body h2{
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight: bold;
+} */
+
+footer a{
+    font-family: 'Open Sans',Arial, sans-serif;
+}
+
+.unete {
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-weight:bold; 
+    font-size: 15px;
 }

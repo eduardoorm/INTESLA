@@ -1,5 +1,5 @@
 
-
+(()=>{
     const btnSend = document.getElementById('btnSend');
 
     const textoError = document.querySelectorAll('p');
@@ -84,6 +84,6 @@
       console.log(datos)
     }
   });
-
+})();
 
   
